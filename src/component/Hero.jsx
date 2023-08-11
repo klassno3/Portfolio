@@ -1,6 +1,6 @@
 import React from 'react'
 import Hand from '../Image/Hand.svg'
-import Network from '../Image/Network.svg'
+
 import Typewriter from "typewriter-effect";
 // import  { ScrollRotate } from 'react-scroll-rotate';
 
