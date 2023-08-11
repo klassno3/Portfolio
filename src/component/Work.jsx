@@ -33,13 +33,15 @@ const Work = () => {
             <p className='text-2xl tracking-wide font-thin'> 2023-UI-Design-UX-Design-Web Development</p>
         
 
-          <div className="flex items-start justify-start gap-7  tracking-wide flex-col">
-            <h1 className='font-inter text-4xl'>Outlet Store</h1>
-            <p className='text-xl w-3/4 font-thin'> Quaerat dolores dicta modi fuga totam. Beatae officia nostrum aperiam tempora eaque!</p>
-          <a href='https://outlet-store-e-commerce.netlify.app/' className='text-2xl px-12 rounded-[10px] py-4 bg-secondary-100 text-Outlet-1 tracking-wide font-inter capitalize '>View site</a>
+          <div className="flex items-start justify-start gap-10  flex-col">
+          <div className="flex items-start justify-start gap-3   flex-col">
+            <h1 className='font-inter font-semibold text-4xl'>Outlet Store</h1>
+            <p className='text-2xl w-3/4 '>Creating an e-commerce website that is easy to use and navigate is essential for a Store that wants to sell products online.</p>
               </div> 
+          <a href='https://outlet-store-e-commerce.netlify.app/' className=' hover:bg-secondary-100/90 transition-all duration-300 text-2xl px-12 rounded-[10px] py-4 bg-secondary-100/70 text-Outlet-1 tracking-wide font-inter capitalize '>View site</a>
           </div>
-          
+            </div>
+            
           <div className="w-[60%] group-hover:scale-[1.2]  transition-all duration-500 ">
             <img src={Outlet} alt="" />
           </div>
@@ -57,12 +59,14 @@ const Work = () => {
             <p className='text-2xl text- tracking-wide font-thin'> 2023-UI-Design-UX-Design-Web Development</p>
         
 
-          <div className="flex items-start justify-start gap-7 text-Ayat-1.2 tracking-wide flex-col">
-            <h1 className='font-inter text-4xl'>Ayat  Apartment Redesign</h1>
-            <p className='text-xl w-3/4 font-thin'> Quaerat dolores dicta modi fuga totam. Beatae officia nostrum aperiam tempora eaque!</p>
-          <a href='https://ayat-realstate.netlify.app/' className='text-2xl px-12 rounded-[10px] py-4 bg-Ayat-1.2 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
+          <div className="flex items-start justify-start gap-10 flex-col">
+          <div className="flex items-start justify-start gap-3 text-Ayat-1.2  flex-col">
+            <h1 className='font-inter text-4xl font-semibold'>Ayat  Realstate Redesign</h1>
+            <p className='text-2xl w-3/4'>Redesign Ayat Real Estate's website to make it more  visually appealing and easy to use.</p>
               </div> 
-          </div>
+          <a href='https://ayat-realstate.netlify.app/' className='hover:bg-Ayat-1.2/90  transition-all duration-300 text-2xl px-12  rounded-[10px] py-4 bg-Ayat-1.2/70 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
+              </div>
+              </div>
           
         <div className="w-[60%] group-hover:scale-[1.2] transition-all duration-500">
             <img src={Ayat} alt="" />
@@ -73,7 +77,7 @@ const Work = () => {
       <div className="group bg-gradient-to-b from-Omnifood-1.1 to-Omnifood-1 text-primary-300 mt-10 rounded-[30px] px-20 py-20 ">
         <div className="flex  justify-between">
 
-        <div className="flex gap-12 flex-col">
+        <div className="flex gap-10 flex-col">
 
         <div className="w-96 pt-10">
           <img src={OmnifoodLogo} alt="" />
@@ -81,11 +85,13 @@ const Work = () => {
             <p className='text-2xl text-Omnifood-1.2 tracking-wide font-thin'> 2023-UI-Design-UX-Design-Web Development</p>
         
 
-          <div className="flex items-start justify-start gap-7 text-secondary-200 tracking-wide flex-col">
-            <h1 className='font-inter text-4xl'>Ayat  Apartment Redesign</h1>
-            <p className='text-xl w-3/4 font-thin'> Quaerat dolores dicta modi fuga totam. Beatae officia nostrum aperiam tempora eaque!</p>
-          <a href='https://omnifood-beti.netlify.app/' className='text-2xl px-12 rounded-[10px] py-4 bg-Omnifood-1.2 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
-              </div> 
+          <div className="flex items-start justify-start gap-10 e flex-col">
+          <div className="flex items-start justify-start gap-3 text-secondary-200 tracking-wide flex-col">
+            <h1 className='font-inter font-semibold text-4xl'>Omni Food</h1>
+            <p className='text-2xl w-3/4 '>A seamless service that provides healthy, pre-made meals that are tailored to your individual dietary needs and preferences.</p>
+                </div> 
+          <a href='https://omnifood-beti.netlify.app/' className='hover:bg-Omnifood-1.2/90  transition-all duration-300 text-2xl px-12 rounded-[10px] py-4 bg-Omnifood-1.2/70 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
+                </div>
           </div>
           
         <div className="w-[60%] group-hover:scale-[1.2] transition-all duration-500">
