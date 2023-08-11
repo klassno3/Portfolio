@@ -2,7 +2,7 @@ import React from 'react'
 import Hand from '../Image/Hand.svg'
 import Network from '../Image/Network.svg'
 import Typewriter from "typewriter-effect";
-import  { ScrollRotate } from 'react-scroll-rotate';
+// import  { ScrollRotate } from 'react-scroll-rotate';
 
 const Hero = () => {
 
@@ -36,7 +36,7 @@ const Hero = () => {
                       </div>
           </div>
           
-        <div className="w-[30%] items-center justify-end capitalize flex gap-4 ">
+        {/* <div className="w-[30%] items-center justify-end capitalize flex gap-4 ">
             <p className="font-ibm  text-primary-100 text-2xl">
             keep scrolling 
             </p>
@@ -47,7 +47,7 @@ const Hero = () => {
       <img className="w-16"src={ Network } alt="network" />
       </div>
      </ScrollRotate>
-        </div>
+        </div> */}
         </div>
         </div>
     </div>
