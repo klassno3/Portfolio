@@ -36,7 +36,7 @@ const Work = () => {
           <div className="flex items-start justify-start gap-7  tracking-wide flex-col">
             <h1 className='font-inter text-4xl'>Outlet Store</h1>
             <p className='text-xl w-3/4 font-thin'> Quaerat dolores dicta modi fuga totam. Beatae officia nostrum aperiam tempora eaque!</p>
-          <button className='text-2xl px-12 rounded-[10px] py-4 bg-secondary-100 text-Outlet-1 tracking-wide font-inter capitalize '>View site</button>
+          <a href='https://outlet-store-e-commerce.netlify.app/' className='text-2xl px-12 rounded-[10px] py-4 bg-secondary-100 text-Outlet-1 tracking-wide font-inter capitalize '>View site</a>
               </div> 
           </div>
           
@@ -60,7 +60,7 @@ const Work = () => {
           <div className="flex items-start justify-start gap-7 text-Ayat-1.2 tracking-wide flex-col">
             <h1 className='font-inter text-4xl'>Ayat  Apartment Redesign</h1>
             <p className='text-xl w-3/4 font-thin'> Quaerat dolores dicta modi fuga totam. Beatae officia nostrum aperiam tempora eaque!</p>
-          <button className='text-2xl px-12 rounded-[10px] py-4 bg-Ayat-1.2 text-secondary-100 tracking-wide font-inter capitalize '>View site</button>
+          <a href='https://ayat-realstate.netlify.app/' className='text-2xl px-12 rounded-[10px] py-4 bg-Ayat-1.2 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
               </div> 
           </div>
           
@@ -84,7 +84,7 @@ const Work = () => {
           <div className="flex items-start justify-start gap-7 text-secondary-200 tracking-wide flex-col">
             <h1 className='font-inter text-4xl'>Ayat  Apartment Redesign</h1>
             <p className='text-xl w-3/4 font-thin'> Quaerat dolores dicta modi fuga totam. Beatae officia nostrum aperiam tempora eaque!</p>
-          <button className='text-2xl px-12 rounded-[10px] py-4 bg-Omnifood-1.2 text-secondary-100 tracking-wide font-inter capitalize '>View site</button>
+          <a href='https://omnifood-beti.netlify.app/' className='text-2xl px-12 rounded-[10px] py-4 bg-Omnifood-1.2 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
               </div> 
           </div>
           
