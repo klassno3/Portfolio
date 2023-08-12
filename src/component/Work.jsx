@@ -9,6 +9,7 @@ import Omnifood from "../Image/Omnifood.png"
 import OmnifoodLogo from "../Image/omnifood-logo.png"
 
 const Work = () => {
+ 
   return (
     <div>
 
@@ -42,7 +43,7 @@ const Work = () => {
           </div>
             </div>
             
-          <div className="w-[60%] group-hover:scale-[1.2]  transition-all duration-500 ">
+          <div className="w-[70%] group-hover:scale-[1.2]  transition-all duration-500 ">
             <img src={Outlet} alt="" />
           </div>
           
@@ -68,7 +69,7 @@ const Work = () => {
               </div>
               </div>
           
-        <div className="w-[60%] group-hover:scale-[1.2] transition-all duration-500">
+        <div className="w-[70%] group-hover:scale-[1.2] transition-all duration-500">
             <img src={Ayat} alt="" />
           </div>
           
@@ -94,7 +95,7 @@ const Work = () => {
                 </div>
           </div>
           
-        <div className="w-[60%] group-hover:scale-[1.2] transition-all duration-500">
+        <div className="w-[70%] group-hover:scale-[1.2] transition-all duration-500">
             <img src={Omnifood} alt="" />
           </div>
           

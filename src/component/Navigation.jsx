@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from 'react'
 import Logo from "../Image/Logo.svg"
 import { Link, useLocation } from "react-router-dom"
+import Resume from "../Resume/Betelhem Kirub cv.pdf"
+
 const Navigation = () => {
 
   const [ active, setActive ] = useState( false );
@@ -32,6 +34,11 @@ const Navigation = () => {
     
   }, [ location.pathname ] )
   
+      useEffect( () => {
+    window.scrollTo(0, 0);
+  }, [location]);
+  
+
   return (
     
     <div className={`sticky top-0 left-0 z-40 ${ active ? "bg-secondary-100 shadow-lg" :"  bg-secondary-100 shadow-none" }`}>
@@ -46,7 +53,7 @@ const Navigation = () => {
         <div className="flex gap-10 font-inter text-xl f text-tertiary-300 tracking-wide">
           <Link  className={`cursor-pointer  hover:text-pink-100/70 ${ selectedTab === 'work' ? "text-pink-100 font-bold" : '' } `} to="/">Work</Link>
           <Link className={`cursor-pointer hover:text-pink-100/70  ${ selectedTab === 'about' ? "text-pink-100 font-bold" : '' } `} to="/about">About</Link>
-          <Link  className={`cursor-pointer hover:text-pink-100/70  ${ selectedTab === 'resume' ? "text-pink-100 font-bold" : '' } `} to="">Resume</Link>
+          <a href={Resume} download="Resume" className="cursor-pointer hover:text-pink-100/70" > Resume </a>
         </div>
 
      </div>
