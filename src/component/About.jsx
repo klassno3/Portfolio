@@ -9,7 +9,7 @@ import Figma from '../Image/figma.svg'
 const About = () => {
   return (
     <div className='w-10/12 mx-auto'>
-      <div className=" flex flex-col justify-center items-center gap-3 pt-32">
+      <div className=" flex flex-col justify-center items-center gap-3 pt-36">
 
       
      <div className="flex items-center gap-3 ">
@@ -24,6 +24,7 @@ const About = () => {
       </div>
       <div className="flex flex-col gap-5 rounded-[30px] py-20 px-16 text-secondary-100 mt-32 bg-pink-200 ">
         <h1 className=" font-inter font-semibold text-4xl ">About Me</h1>
+        
         <p className="text-lg font-inter ">
           I am currently in my fourth year pursuing a degree in Software Engineering at AASTU. Throughout my academic journey, I have consistently exhibited a strong inclination towards understanding the underlying principles and methodologies behind the design and production of various systems and products. This inclination, coupled with my curiosity in the process and production aspect, has sparked my keen interest in front-end development.
 

@@ -23,7 +23,7 @@ module.exports = {
         "tertiary-200": "#555",
         "tertiary-300": "#999",
         "pink-100": "#F72D93",
-        "pink-200": "#f72d93",
+        "pink-200": " #fc55a8",
         "Outlet-1":"#0f5891",
         "Outlet-1.1":"#126fb6",
         "Omnifood-1":"#eea362",
