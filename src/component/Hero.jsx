@@ -26,7 +26,7 @@ const Hero = () => {
           <h2 className='text-xl lg:text-3xl  font-inter text-primary-100/90'>Hey, Im Betelhem Kirub</h2>
           <img src={Hand} alt="" className="w-8 lg:w-12" />
         </div>
-        <div className=" font-ibm text-2xl sm:text-3xl lg:text-5xl lg:leading-[3.6rem] py-6 text-primary-100">
+        <div className=" font-ibm text-3xl lg:text-5xl lg:leading-[3.6rem] py-6 text-primary-100">
           <h1>I'm a front-end developer and UI/UX designer with a passion for creating experiences that are </h1>
           <div className="text-pink-100">
             
