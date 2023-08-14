@@ -15,18 +15,18 @@ const Hero = () => {
 
   })
   return (
-    <div>
-      <div className="w-10/12 mx-auto">
-        <div className="flex justify-between  items-end pb-20">
+    <div  className='max-w-[1440px] mx-auto'>
+      <div className=" w-11/12 lg:w-10/12 mx-auto">
+        <div className="flex flex-col md:flex-row justify-between  md:items-end  pb-5 md:pb-20">
 
-          <div className="w-[70%] ">
+          <div className="w-full md:w-[70%]  ">
 
-        <div className="flex items-center gap-3 pt-32 ">
+        <div className="flex items-center gap-1 lg:gap-3 pt-28 md:pt-32 ">
 
-          <h2 className='text-3xl font-inter text-primary-100/90'>Hey, Im Betelhem Kirub</h2>
-          <img src={Hand} alt="" className="w-12" />
+          <h2 className='text-xl lg:text-3xl  font-inter text-primary-100/90'>Hey, Im Betelhem Kirub</h2>
+          <img src={Hand} alt="" className="w-8 lg:w-12" />
         </div>
-        <div className=" font-ibm text-5xl leading-[3.6rem] py-6 text-primary-100">
+        <div className=" font-ibm text-2xl sm:text-3xl lg:text-5xl lg:leading-[3.6rem] py-6 text-primary-100">
           <h1>I'm a front-end developer and UI/UX designer with a passion for creating experiences that are </h1>
           <div className="text-pink-100">
             
@@ -44,18 +44,19 @@ const Hero = () => {
                       </div>
           </div>
           
-        <div className="w-[30%] items-center justify-end capitalize flex gap-4 ">
-            <p className="font-ibm  text-primary-100 text-2xl">
+        <div className="lg:w-[30%] w-full items-center justify-start md:justify-end capitalize flex gap-4 ">
+            <p className="font-ibm  text-primary-100 text-xl lg:text-2xl">
             keep scrolling 
             </p>
      
         
       <div className="rotate">
         
-      <img className="w-16"src={ Network } alt="network" />
+      <img className="w-12 lg:w-16 "src={ Network } alt="network" />
       </div>
 
-        </div>
+          </div>
+          
         </div>
         </div>
     </div>
