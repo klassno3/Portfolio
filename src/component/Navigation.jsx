@@ -41,6 +41,7 @@ const Navigation = () => {
   useEffect( () => {
     if ( location.pathname === "/" ) {
       setSelectedTab( "work" )
+     
       
     }
     else if ( location.pathname === "/about" ) {
@@ -82,9 +83,9 @@ const Navigation = () => {
             <img onClick={ handleClose } src={ Close } alt="" className={ `${ open ? "block" : "hidden" } fixed top-[40px] right-[40px] sm:w-7 w-6 ` } />
             
            <div className="flex  flex-col gap-10 font-inter text-xl f text-tertiary-300 tracking-wide">
-          <Link  className={`cursor-pointer  hover:text-pink-100/70 ${ selectedTab === 'work' ? "text-pink-100 font-bold" : '' } `} to="/">Work</Link>
-          <Link className={`cursor-pointer hover:text-pink-100/70  ${ selectedTab === 'about' ? "text-pink-100 font-bold" : '' } `} to="/about">About</Link>
-          <a href={Resume} download="Resume" className="cursor-pointer hover:text-pink-100/70" > Resume </a>
+          <Link onClick={()=>setOpen(false)} className={`cursor-pointer  hover:text-pink-100/70 ${ selectedTab === 'work' ? "text-pink-100 font-bold" : '' } `} to="/">Work</Link>
+          <Link onClick={()=>setOpen(false)}  className={`cursor-pointer hover:text-pink-100/70  ${ selectedTab === 'about' ? "text-pink-100 font-bold" : '' } `} to="/about">About</Link>
+          <a onClick={()=>setOpen(false)}  href={Resume} download="Resume" className="cursor-pointer hover:text-pink-100/70" > Resume </a>
           </div>
           </div>
         
