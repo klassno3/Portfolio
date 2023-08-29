@@ -15,7 +15,7 @@ const Hero = () => {
 
   })
   return (
-    <div  className='max-w-[1440px] mx-auto'>
+    <div className='max-w-[1440px] mx-auto'>
       <div className=" w-11/12 lg:w-10/12 mx-auto">
         <div className="flex flex-col md:flex-row justify-between  md:items-end  pb-5 md:pb-20">
 
