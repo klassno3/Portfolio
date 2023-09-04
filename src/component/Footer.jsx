@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin, FaTelegram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className="max-w-[1440px mx-auto]">
+    <div className="max-w-[1440px] mx-auto">
 
     <div className='w-11/12 lg:w-10/12 py-10 mx-auto'>
       <div className="flex flex-col gap-7 md:flex-row md:justify-between">
