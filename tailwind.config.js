@@ -32,6 +32,8 @@ module.exports = {
         "Ayat-1":"#ecd09e",
         "Ayat-1.1":"#d7b389",
         "Ayat-1.2": " #18202F",
+        "Literti-100": " #7332CC",
+        "Literti-200": "#5917AD",
       },
     
      

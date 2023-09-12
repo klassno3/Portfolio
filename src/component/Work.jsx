@@ -3,8 +3,10 @@ import Hero from './Hero'
 import Desk from '../Image/desktop.svg'
 import AyatLogo from "../Image/Ayat-Logo.svg"
 import OutletLogo from "../Image/Outlet-Logo.svg"
+import LitertiLogo from "../Image/Literti.svg"
 import Outlet from "../Image/Frame 124.png"
 import Ayat from "../Image/Frame 128.png"
+import Literti from "../Image/Literti.png"
 import Omnifood from "../Image/Omnifood.png"
 import OmnifoodLogo from "../Image/omnifood-logo.png"
 
@@ -22,6 +24,32 @@ const Work = () => {
         </div>
         <img className="w-7 md:w-10" src={ Desk } alt="desktop icon" />
         
+      </div>
+         <div className="group bg-gradient-to-b from-Literti-100 to-Literti-200 text-secondary-100 mt-10 rounded-[15px] md:rounded-[30px] p-7 md:p-10 lg:p-20 ">
+        <div className="flex flex-col gap-10 md:flex-row items-start md:justify-between">
+
+        <div className="flex gap-6 md:gap-8 lg:gap-12 flex-col">
+
+        <div className="w-24 md:w-36 lg:w-48">
+          <img src={LitertiLogo} alt="" />
+        </div>
+            <p className='md:text-lg lg:text-xl sm:text-base text-sm tracking-wide font-thin'> 2023-UI-Design-UX-Design-Web Development</p>
+              <div className="flex items-start justify-start gap-8  flex-col">
+                
+          <div className="flex items-start justify-start gap-3   flex-col">
+            <h1 className='font-inter font-semibold text-3xl lg:text-4xl'>Literti</h1>
+            <p className='md:text-xl font-inter  text-lg lg:text-2xl  '>
+An easy book tracking app is a site that allows users to keep track of the books they have read and want to read </p>
+              </div> 
+          <a href='https://literti-book-tracker.netlify.app/' className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl  text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Literti-100 tracking-wide font-inter capitalize '>View site</a>
+          </div>
+            </div>
+            
+          <div className="w-[80%] md:w-full md:group-hover:scale-[1.2] group-hover:scale-[1.1] transition-all duration-500 ">
+            <img src={Literti} alt="" />
+          </div>
+          
+        </div>
       </div>
          <div className="group bg-gradient-to-b from-Outlet-1.1 to-Outlet-1 text-secondary-100 mt-10 rounded-[15px] md:rounded-[30px] p-7 md:p-10 lg:p-20 ">
         <div className="flex flex-col gap-10 md:flex-row items-start md:justify-between">
