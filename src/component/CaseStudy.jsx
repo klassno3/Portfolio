@@ -188,7 +188,7 @@ I then created task flows to explore various paths the users could take when the
           </div>
           </div>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row-reverse gap-16 items-center  my-12 lg:my-20">
+        <div className="flex flex-col-reverse lg:flex-row gap-16 items-center  my-12 lg:my-20">
 
           <div className="flex flex-col gap-3">
             <h1 className='font-inter  text-sm md:text-xl  text-primary-100'>Reading Challenge Screen </h1>
@@ -208,7 +208,7 @@ I then created task flows to explore various paths the users could take when the
           </div>
           </div>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row-reverse gap-16 items-center  my-12 lg:my-20">
+        <div className="flex flex-col-reverse lg:flex-row gap-16 items-center  my-12 lg:my-20">
 
           <div className="flex flex-col gap-3">
             <h1 className='font-inter  text-sm md:text-xl  text-primary-100'>My Book Screen </h1>
