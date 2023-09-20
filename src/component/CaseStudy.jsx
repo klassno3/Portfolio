@@ -1,8 +1,8 @@
 import React from 'react'
 import Literti from "../Image/Literti.png"
-import { AiOutlineHeart, AiOutlineSearch,AiOutlineTablet } from "react-icons/ai"
+import { AiOutlineHeart, AiOutlineSearch } from "react-icons/ai"
 import { GoLightBulb } from "react-icons/go"
-import { SiTestcafe } from "react-icons/si"
+
 import Table from "../Image/Table.png"
 import SiteMap from "../Image/Sitemap.svg"
 import TaskFlow from "../Image/Task Flow.svg"
