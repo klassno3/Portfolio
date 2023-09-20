@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './Hero'
+import { Link } from 'react-router-dom'
 import Desk from '../Image/desktop.svg'
 import AyatLogo from "../Image/Ayat-Logo.svg"
 import OutletLogo from "../Image/Outlet-Logo.svg"
@@ -14,8 +14,9 @@ const Work = () => {
  
   return (
     <div className='max-w-[1440px] mx-auto'>
+      
   
-    <Hero/>
+  
     <div className='lg:w-10/12 w-11/12 mx-auto py-20'>
       <div className="flex items-end gap-2 md:gap-4">
 
@@ -28,6 +29,7 @@ const Work = () => {
          <div className="group bg-gradient-to-b from-Literti-100 to-Literti-200 text-secondary-100 mt-10 rounded-[15px] md:rounded-[30px] p-7 md:p-10 lg:p-20 ">
         <div className="flex flex-col gap-10 md:flex-row items-start md:justify-between">
 
+            
         <div className="flex gap-6 md:gap-8 lg:gap-12 flex-col">
 
         <div className="w-24 md:w-36 lg:w-48">
@@ -39,9 +41,13 @@ const Work = () => {
           <div className="flex items-start justify-start gap-3   flex-col">
             <h1 className='font-inter font-semibold text-3xl lg:text-4xl'>Literti</h1>
             <p className='md:text-xl font-inter  text-lg lg:text-2xl  '>
-An easy book tracking app is a site that allows users to keep track of the books they have read and want to read </p>
-              </div> 
+                    An easy book tracking app is a site that allows users to keep track
+                    of the books they have read and want to read </p>
+                </div> 
+                <div className="flex gap-6">
           <a href='https://literti-book-tracker.netlify.app/' className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl  text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Literti-100 tracking-wide font-inter capitalize '>View site</a>
+<Link to="/case study" className='transition-all duration-300 md:text-xl border-red border-2   text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3  text-secondary-100 tracking-wide font-inter capitalize '>Case Study</Link>
+                </div>
           </div>
             </div>
             

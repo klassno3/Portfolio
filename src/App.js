@@ -1,13 +1,14 @@
 import React from 'react'
 import Navigation from './component/Navigation'
 import Footer from './component/Footer'
-import Work from './component/Work'
+import Home from './component/Home'
 import About from './component/About';
 import {
   createBrowserRouter,
   Outlet,
   RouterProvider,
 } from "react-router-dom";
+import CaseStudy from './component/CaseStudy';
 
 
 
@@ -33,7 +34,11 @@ const Layout = () => {
         },
         {
           path: "/",
-          element:<Work/>,
+          element:<Home/>,
+        },
+        {
+          path: "/case study",
+          element:<CaseStudy/>,
         },
       ]
       },
