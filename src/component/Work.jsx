@@ -19,19 +19,14 @@ const Work = () => {
   
     <div className='lg:w-10/12 w-11/12 mx-auto py-20'>
       <div className="flex items-end w-full justify-start gap-2 md:gap-4">
-
       <div className="font-inter text-base lg:text-xl md:text-2xl font-semibold  text-primary-100">
         <h1>Selected Work</h1>
         </div>
         <img className="w-7 md:w-10" src={ Desk } alt="desktop icon" />
-        
       </div>
          <div className="group bg-gradient-to-b from-Literti-100 to-Literti-200 text-secondary-100 mt-10 rounded-[15px] md:rounded-[30px] p-7 md:p-10 lg:p-20 ">
         <div className="flex flex-col gap-10 md:flex-row items-start md:justify-between">
-
-            
         <div className="flex gap-6 md:gap-8 lg:gap-12 flex-col">
-
         <div className="w-24 md:w-36 lg:w-48">
           <img src={LitertiLogo} alt="" />
         </div>
