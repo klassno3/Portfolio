@@ -66,10 +66,10 @@ const CaseStudy = () => {
             
           </div>
         </div>
-        <div className=" bg-white py-20 mt-10">
+        <div className=" bg-white py-10 lg:py-20 mt-10">
           <div className="flex flex-col gap-6 lg:w-10/12 w-11/12 mx-auto ">
             
-        <h3 className="text-3xl font-inter font-semibold text-primary-100">Design Process</h3>
+        <h3 className="text-base md:text-3xl font-inter font-semibold text-primary-100">Design Process</h3>
        <img src={FinalDesign} alt="" />
 </div>
       </div>
@@ -85,7 +85,7 @@ const CaseStudy = () => {
           <p className="text-sm lg:text-xl  mx-auto text-center lg:w-10/12 font-semibold text-primary-100 font-inter my-10  lg:my-28">Research objective: To gain a deeper understanding of the existing user experience in discovering and keeping track of books</p>
         </div>
         <div className="flex flex-col gap-3 ">
-          <p className="text-xl md:text-3xl font-inter  text-Literti-100"> COMPETITIVE ANALYSIS</p>
+          <p className="text-base md:text-3xl font-inter  text-Literti-100"> COMPETITIVE ANALYSIS</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
           I began the research process by conducting a thorough analysis of competitors to identify their strengths, weaknesses, and similar functionalities. Through this analysis, I discovered several issues with the user interface (UI) and user experience (UX) of existing platforms. One of the prominent issues was the lack of certain features that users frequently requested, such as the ability to rate a book with decimal points or maintain a "did not finish" list. Additionally, the UI/UX design was often confusing for users, leading to difficulties in navigating and interacting with the platform.
@@ -110,8 +110,8 @@ By identifying these issues and shortcomings in the user journey, it became clea
           </div>
           <p className="text-xl md:text-3xlfont-inter font-semibold text-primary-100">Define</p>
         </div>
-          <div className="flex flex-col gap-3 mt-12">
-          <p className="text-xl md:text-3xl font-inter  text-Literti-100 font-medu"> SITEMAP</p>
+          <div className="flex flex-col gap-3 mt-6 lg:mt-12">
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu"> SITEMAP</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
 Based on the data that was collected, I brainstormed, compiled and organized the information architecture into a  sitemap.
@@ -121,8 +121,8 @@ Based on the data that was collected, I brainstormed, compiled and organized the
 
         <img src={SiteMap} alt="" />
         </div>
-          <div className="flex flex-col gap-3 mt-12">
-          <p className="text-xl md:text-3xl font-inter  text-Literti-100 font-medu"> TASK FLOW</p>
+          <div className="flex flex-col gap-3  ">
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu"> TASK FLOW</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
 I then created task flows to explore various paths the users could take when they engage with the app.          </p>
@@ -138,8 +138,8 @@ I then created task flows to explore various paths the users could take when the
           </div>
           <p className="text-xl md:text-3xlfont-inter font-semibold text-primary-100">Ideate</p>
         </div>
-         <div className="flex flex-col gap-3 mt-12">
-          <p className="text-xl md:text-3xl font-inter  text-Literti-100 font-medu">WIRE FRAMES</p>
+         <div className="flex flex-col gap-3  mt-6 lg:mt-12">
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">WIRE FRAMES</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
             After creating the sitemap and task flows, I began designing low-fidelity wireframes.
@@ -151,8 +151,8 @@ I then created task flows to explore various paths the users could take when the
         <img className='w-1/2' src={Challenge} alt="" />
         </div>
         <img className='w-1/2 mx-auto mt-4' src={Home} alt="" />
-  <div className="flex flex-col gap-3 mt-12">
-          <p className="text-xl md:text-3xl font-inter  text-Literti-100 font-medu">UI KIT</p>
+  <div className="flex flex-col gap-3  mt-6 lg:mt-12">
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">UI KIT</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
           Before developing the high-fidelity wireframes, I created a design system to ensure that every screen is visually consistent.
@@ -170,8 +170,8 @@ I then created task flows to explore various paths the users could take when the
           </div>
           <p className="text-xl md:text-3xl font-inter font-semibold text-primary-100">ProtoType</p>
         </div>
-         <div className="flex flex-col gap-3 mt-12">
-          <p className="text-xl md:text-3xl font-inter  text-Literti-100 font-medu">FINAL PRODUCT</p>
+         <div className="flex flex-col gap-3  mt-6 lg:mt-12">
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">FINAL PRODUCT</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
            Once the brand style and UI library was created, I turned the low fidelity wireframes into a high fidelity prototype.
@@ -182,7 +182,7 @@ I then created task flows to explore various paths the users could take when the
           <img className='lg:w-1/2 w-9/12 ' src={ FinalHome } alt="" />
           <div className="flex flex-col gap-3">
             <h1 className='font-inter  text-sm md:text-xl  text-primary-100'>Home Screen </h1>
-          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-sm sm:text-sm lg:text-xl text-primary-100 font-inter ">
+          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-xs sm:text-sm md:text-base text-primary-100 font-inter ">
             On the home screen, there is a hero section that provides a brief overview of the site.
             It includes a search bar and a list of books that users can bookmark according to their preferences.
           </div>
@@ -192,18 +192,18 @@ I then created task flows to explore various paths the users could take when the
 
           <div className="flex flex-col gap-3">
             <h1 className='font-inter  text-sm md:text-xl  text-primary-100'>Reading Challenge Screen </h1>
-          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-sm sm:text-sm lg:text-xl text-primary-100 font-inter  ">
+          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-xs sm:text-sm md:text-base text-primary-100 font-inter  ">
               The reading challenge screen shows you how far you have come in your reading challenge, the list of books you have read, and some statistics about those books. The progress bar shows you how much of the challenge you have completed, and the list of books shows you which books you have read and which ones you have not yet read.
           </div>
           </div>
           <img className='lg:w-1/2 w-9/12  ' src={ FinalChallenge } alt="" />
         </div>
-        <div className="flex flex-col lg:flex-row gap-16 items-center  my-12 lg:my-20">
+        <div className="flex flex-col lg:flex-row gap-16 items-center  my-12 lg:my-20">J
 
           <img className='lg:w-1/2 w-9/12 ' src={ FinalBookDetail } alt="" />
           <div className="flex flex-col gap-3">
             <h1 className='font-inter  text-sm md:text-xl  text-primary-100'>Book Details Screen </h1>
-          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-sm sm:text-sm lg:text-xl text-primary-100 font-inter  ">
+          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-xs sm:text-sm md:text-base text-primary-100 font-inter  ">
           The book details screen contains a comprehensive description of the book, offering in-depth information. Additionally, there is a button available that allows users to mark or bookmark the book based on their personal preferences.
           </div>
           </div>
@@ -212,12 +212,29 @@ I then created task flows to explore various paths the users could take when the
 
           <div className="flex flex-col gap-3">
             <h1 className='font-inter  text-sm md:text-xl  text-primary-100'>My Book Screen </h1>
-          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-sm sm:text-sm lg:text-xl text-primary-100 font-inter ">
+          <div className="flex  bg-gray-200/80 lg:px-10 lg:py-8 p-4 rounded shadow-xl text-xs sm:text-sm md:text-base text-primary-100 font-inter ">
         The my book screen shows a list of books you have marked, and provides information about each book, such as the title, author, and publication date. You can also delete books from the list.
           </div>
           </div>
           <img className='lg:w-1/2 w-9/12 ' src={ FinalMyBook } alt="" />
         </div>
+      </div>
+          <div className=" bg-white py-10 lg:py-20 ">
+          <div className="flex flex-col gap-6 lg:w-10/12 w-11/12 mx-auto ">
+         <div className="flex items-center gap-3  ">
+          <div className="flex items-center rounded bg-Literti-100 p-1">
+            <GoLightBulb className='text-secondary-100' size={ 30 } />
+          </div>
+          <p className="text-xl md:text-3xl font-inter font-semibold text-primary-100">Test</p>
+        </div>
+           <div className="flex flex-col gap-3  mt-6 lg:mt-12">
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">USABLITY TEST</p>
+          <p className="text-sm lg:text-xl text-primary-100 font-inter ">
+          
+I conducted several usability tests using a high fidelity prototype of the site and discovered that i need to amke the buttons bigger in the mobile version to create better use experience.          </p>
+        </div>
+        </div>
+        
       </div>
     </div>
   )

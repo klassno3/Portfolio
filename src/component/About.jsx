@@ -30,7 +30,7 @@ const About = () => {
         <p className="text-base lg:text-lg font-inter ">
           I am currently in my fourth year pursuing a degree in Software Engineering at AASTU. Throughout my academic journey, I have consistently exhibited a strong inclination towards understanding the underlying principles and methodologies behind the design and production of various systems and products. This inclination, coupled with my curiosity in the process and production aspect, has sparked my keen interest in front-end development.
 
-As I delved deeper into the realm of software development, I realized that simply fulfilling user or business requirements was not enough. I yearned to bridge the gap between abstract ideas and tangible designs. This realization propelled me towards the captivating field of UI/UX design, where I could actively participate in transforming user or business requirements into visually appealing and user-friendly interfaces.
+As I delved deeper into the realm of software development, I realized that simply fulfilling user or business requirements was not enough. I wanted to bridge the gap between abstract ideas and tangible designs. This realization pushed me towards the captivating field of UI/UX design, where I could actively participate in transforming user or business requirements into visually appealing and user-friendly interfaces.
 
 
             

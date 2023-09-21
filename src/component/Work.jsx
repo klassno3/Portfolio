@@ -44,14 +44,14 @@ const Work = () => {
                     An easy book tracking app is a site that allows users to keep track
                     of the books they have read and want to read </p>
                 </div> 
-                <div className="flex gap-6">
-          <a href='https://literti-book-tracker.netlify.app/' className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl  text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Literti-100 tracking-wide font-inter capitalize '>View site</a>
+                <div className="flex flex-col  sm:flex-row gap-6">
+          <a href='https://literti-book-tracker.netlify.app/' className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl flex justify-center items-center text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Literti-100 tracking-wide font-inter capitalize '>View site</a>
 <Link to="/case study" className='transition-all duration-300 md:text-xl border-red border-2   text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3  text-secondary-100 tracking-wide font-inter capitalize '>Case Study</Link>
                 </div>
           </div>
             </div>
             
-          <div className="w-[80%] md:w-full md:group-hover:scale-[1.2] group-hover:scale-[1.1] transition-all duration-500 ">
+          <div className="w-[80%] md:w-full  md:group-hover:scale-[1.2] group-hover:scale-[1.1] transition-all duration-500 ">
             <img src={Literti} alt="" />
           </div>
           
