@@ -20,7 +20,7 @@ import FinalDesign from "../Image/design process.jpg"
 
 const CaseStudy = () => {
   return (
-    <div className='py-20 bg-secondary-100'>
+    <div className='pt-16 pb-10 bg-secondary-100'>
       <img className='w-9/12 lg:w-8/12 flex justify-center mx-auto' src={Literti} alt="" />
     
         <div className="flex lg:w-10/12 w-11/12 mx-auto flex-col gap-2 md:gap-4 mt-16">
@@ -111,7 +111,7 @@ By identifying these issues and shortcomings in the user journey, it became clea
           <p className="text-xl md:text-3xlfont-inter font-semibold text-primary-100">Define</p>
         </div>
           <div className="flex flex-col gap-3 mt-6 lg:mt-12">
-          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu"> SITEMAP</p>
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 "> SITEMAP</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
 Based on the data that was collected, I brainstormed, compiled and organized the information architecture into a  sitemap.
@@ -122,7 +122,7 @@ Based on the data that was collected, I brainstormed, compiled and organized the
         <img src={SiteMap} alt="" />
         </div>
           <div className="flex flex-col gap-3  ">
-          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu"> TASK FLOW</p>
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 "> TASK FLOW</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
 I then created task flows to explore various paths the users could take when they engage with the app.          </p>
@@ -139,7 +139,7 @@ I then created task flows to explore various paths the users could take when the
           <p className="text-xl md:text-3xlfont-inter font-semibold text-primary-100">Ideate</p>
         </div>
          <div className="flex flex-col gap-3  mt-6 lg:mt-12">
-          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">WIRE FRAMES</p>
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 ">WIRE FRAMES</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
             After creating the sitemap and task flows, I began designing low-fidelity wireframes.
@@ -152,7 +152,7 @@ I then created task flows to explore various paths the users could take when the
         </div>
         <img className='w-1/2 mx-auto mt-4' src={Home} alt="" />
   <div className="flex flex-col gap-3  mt-6 lg:mt-12">
-          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">UI KIT</p>
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 ">UI KIT</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
           Before developing the high-fidelity wireframes, I created a design system to ensure that every screen is visually consistent.
@@ -171,7 +171,7 @@ I then created task flows to explore various paths the users could take when the
           <p className="text-xl md:text-3xl font-inter font-semibold text-primary-100">ProtoType</p>
         </div>
          <div className="flex flex-col gap-3  mt-6 lg:mt-12">
-          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">FINAL PRODUCT</p>
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 ">FINAL PRODUCT</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
            Once the brand style and UI library was created, I turned the low fidelity wireframes into a high fidelity prototype.
@@ -198,7 +198,7 @@ I then created task flows to explore various paths the users could take when the
           </div>
           <img className='lg:w-1/2 w-9/12  ' src={ FinalChallenge } alt="" />
         </div>
-        <div className="flex flex-col lg:flex-row gap-16 items-center  my-12 lg:my-20">J
+        <div className="flex flex-col lg:flex-row gap-16 items-center  my-12 lg:my-20">
 
           <img className='lg:w-1/2 w-9/12 ' src={ FinalBookDetail } alt="" />
           <div className="flex flex-col gap-3">
@@ -227,8 +227,8 @@ I then created task flows to explore various paths the users could take when the
           </div>
           <p className="text-xl md:text-3xl font-inter font-semibold text-primary-100">Test</p>
         </div>
-           <div className="flex flex-col gap-3  mt-6 lg:mt-12">
-          <p className="text-base md:text-3xl font-inter  text-Literti-100 font-medu">USABLITY TEST</p>
+           <div className="flex flex-col gap-30 ">
+          <p className="text-base md:text-3xl font-inter  text-Literti-100 ">USABLITY TEST</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter ">
           
 I conducted several usability tests using a high fidelity prototype of the site and discovered that i need to amke the buttons bigger in the mobile version to create better use experience.          </p>
