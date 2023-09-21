@@ -18,9 +18,9 @@ const Work = () => {
   
   
     <div className='lg:w-10/12 w-11/12 mx-auto py-20'>
-      <div className="flex items-end gap-2 md:gap-4">
+      <div className="flex items-end w-full justify-start gap-2 md:gap-4">
 
-      <div className="font-inter  text-lg: smtext-xl md:text-2xl font-semibold  text-primary-100">
+      <div className="font-inter text-base lg:text-xl md:text-2xl font-semibold  text-primary-100">
         <h1>Selected Work</h1>
         </div>
         <img className="w-7 md:w-10" src={ Desk } alt="desktop icon" />

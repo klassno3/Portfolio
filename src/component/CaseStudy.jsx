@@ -21,42 +21,81 @@ import FinalDesign from "../Image/design process.jpg"
 const CaseStudy = () => {
   return (
     <div className='pt-16 pb-10 bg-secondary-100'>
-      <img className='w-9/12 lg:w-8/12 flex justify-center mx-auto' src={Literti} alt="" />
+
+      <img className='w-9/12 lg:w-8/12 flex justify-center mx-auto' src={ Literti } alt="" />
+      
     
-        <div className="flex lg:w-10/12 w-11/12 mx-auto flex-col gap-2 md:gap-4 mt-16">
-          <h1 className="text-Literti-100 text-2xl lg:text-6xl  font-ibm">Literti</h1>
-          <p className="text-sm md:text-xl text-tertiary-200 font-inter lg:w-3/4">Design a website that enables users to monitor their book reading progress and establish personal reading challenges.</p>
-        </div>
-        <div className="flex flex-col lg:flex-row gap-12 lg:w-10/12 w-11/12 mx-auto  justify-between mt-16 ">
+      <div className="flex lg:w-10/12 w-11/12 mx-auto flex-col gap-2 md:gap-4 mt-16">
+        
+        <h1 className="text-Literti-100 text-2xl lg:text-6xl  font-ibm">Literti</h1>
+        
+        <p className="text-sm md:text-xl text-tertiary-200 font-inter lg:w-3/4">Design a website that enables users to monitor their book reading progress and establish personal reading challenges.</p>
+        
+      </div>
+      
+      <div className="flex flex-col lg:flex-row gap-12 lg:w-10/12 w-11/12 mx-auto  justify-between mt-16 ">
+
+        
 
         <div className=" lg:w-3/5  flex flex-col gap-5 ">
 
-        <div className="flex flex-col gap-1 lg:gap-3">
-          <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">Challenge</h2>
-            <p className="text-sm md:text-xl text-primary-100 font-inter">
-           Although social media platforms and websites like Goodreads and StoryGraph have been useful for book tracking, they suffer from poor UI/UX and lack the desired features according to users.</p>
-        </div>
-        <div className="flex flex-col gap-1 lg:gap-3">
-          <h2 className="uppercase text-sm lg:text-xl  font-inter font-semibold text-primary-100">Solution</h2>
-            <p className="text-sm md:text-xl text-primary-100 font-inter">
-              Create a website with excellent UI/UX that avoids overwhelming users with unnecessary features and addresses the issues found in the UI and UX of current platforms.</p>
-        </div>
-          </div>
-          <div className="lg:w-2/5 flex flex-col gap-3 lg:items-end ">
-            <div className=" flex flex-col gap-3 items-start">
-              
-             <div className="flex flex-col  items-start">
-          <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">role</h2>
-          <p className="text-sm lg:text-xl text-primary-100 font-inter">Ui/Ux designer</p>
-          <p className="text-sm lg:text-xl text-primary-100 font-inter">Developer</p>
-        </div>
 
-             <div className="flex flex-col  items-start">
-          <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">time</h2>
-          <p className="text-sm lg:text-xl text-primary-100 font-inter">2 weeks</p>
+
+          <div className="flex flex-col gap-1 lg:gap-3">
+            
+            <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">Challenge</h2>
+            
+            <p className="text-sm md:text-xl text-primary-100 font-inter">
+
+              Although social media platforms and websites like Goodreads and StoryGraph have been useful for
+              book tracking, they suffer from poor UI/UX and lack the desired features according to users.
+            </p>
+            
+          </div>
+          
+          <div className="flex flex-col gap-1 lg:gap-3">
+            
+            <h2 className="uppercase text-sm lg:text-xl  font-inter font-semibold text-primary-100">Solution</h2>
+            
+            <p className="text-sm md:text-xl text-primary-100 font-inter">
+
+              Create a website with excellent UI/UX that avoids overwhelming users with unnecessary
+              features and addresses the issues found in the UI and UX of current platforms.
+            </p>
+
+          </div>
+          
         </div>
-             <div className="flex flex-col items-start">
-          <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">tools</h2>
+        
+        <div className="lg:w-2/5 flex flex-col gap-3 lg:items-end ">
+          
+          <div className=" flex flex-col gap-3 items-start">
+            
+              
+            <div className="flex flex-col  items-start">
+              
+              <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">role</h2>
+              
+              <p className="text-sm lg:text-xl text-primary-100 font-inter">Ui/Ux designer</p>
+              
+              <p className="text-sm lg:text-xl text-primary-100 font-inter">Developer</p>
+              
+            </div>
+            
+
+            <div className="flex flex-col  items-start">
+              
+              <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">time</h2>
+              
+              <p className="text-sm lg:text-xl text-primary-100 font-inter">2 weeks</p>
+
+              
+            </div>
+            
+            <div className="flex flex-col items-start">
+              
+              <h2 className="uppercase text-sm lg:text-xl font-inter font-semibold text-primary-100">tools</h2>
+              
           <p className="text-sm lg:text-xl text-primary-100 font-inter">Figma</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter">Google Book API</p>
           <p className="text-sm lg:text-xl text-primary-100 font-inter">React Js </p>
@@ -229,9 +268,12 @@ I then created task flows to explore various paths the users could take when the
         </div>
            <div className="flex flex-col gap-30 ">
           <p className="text-base md:text-3xl font-inter  text-Literti-100 ">USABLITY TEST</p>
-          <p className="text-sm lg:text-xl text-primary-100 font-inter ">
+            <p className="text-sm lg:text-xl text-primary-100 font-inter ">
+              
           
-I conducted several usability tests using a high fidelity prototype of the site and discovered that i need to amke the buttons bigger in the mobile version to create better use experience.          </p>
+              I conducted several usability tests using a high fidelity prototype of the site and discovered that
+              i need to make the buttons bigger in the mobile version to create better use experience.
+            </p>
         </div>
         </div>
         
