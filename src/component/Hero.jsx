@@ -2,6 +2,13 @@ import React , { useEffect } from 'react'
 import Hand from '../Image/Hand.svg'
 import Network from  '../Image/Network.svg'
 import Typewriter from "typewriter-effect";
+import Html from '../Image/html-5.svg'
+import Css from '../Image/css-3.svg'
+import Js from '../Image/js.svg'
+import RctJs from "../Image/RctJs.svg"
+import Tailwind from '../Image/tailwind.svg'
+import Figma from '../Image/figma.svg' 
+
 
 const Hero = () => {
  useEffect( () => {
@@ -21,7 +28,7 @@ const Hero = () => {
 
           <div className="w-full md:w-[70%]  ">
 
-        <div className="flex items-center gap-1 lg:gap-3 pt-28 md:pt-32 ">
+        <div className="flex items-center gap-1 lg:gap-3 pt-28 md:pt-20 ">
 
           <h2 className='text-xl lg:text-3xl  font-inter text-primary-100/90'>Hey, Im Betelhem Kirub</h2>
           <img src={Hand} alt="" className="w-8 lg:w-12" />
@@ -55,8 +62,21 @@ const Hero = () => {
       <img className="w-12 lg:w-16 "src={ Network } alt="network" />
       </div>
 
+            
           </div>
           
+        </div>
+        <div className="flex gap-2">
+
+          <h3 className='text-lg lg:text-3xl  font-ibm text-primary-100/90'>Tech Stack:</h3>
+          <div className="grid md:grid-cols-6 grid-cols-3 gap-2 md:gap-5">
+            <img src={Html} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Css} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Tailwind} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Js} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={RctJs} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Figma} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+          </div>
         </div>
         </div>
     </div>

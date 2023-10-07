@@ -28,10 +28,9 @@ const About = () => {
         <h1 className=" font-inter font-semibold text-2xl md:text-3xl lg:text-4xl ">About Me</h1>
         
         <p className="text-base lg:text-lg font-inter ">
-          I am currently in my fourth year pursuing a degree in Software Engineering at AASTU. Throughout my academic journey, I have consistently exhibited a strong inclination towards understanding the underlying principles and methodologies behind the design and production of various systems and products. This inclination, coupled with my curiosity in the process and production aspect, has sparked my keen interest in front-end development.
+        
 
-As I delved deeper into the realm of software development, I realized that simply fulfilling user or business requirements was not enough. I wanted to bridge the gap between abstract ideas and tangible designs. This realization pushed me towards the captivating field of UI/UX design, where I could actively participate in transforming user or business requirements into visually appealing and user-friendly interfaces.
-
+I am a Junior Front-End Developer and UI/UX Designer with a strong skill set in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I have a knack for creating visually appealing and user-friendly websites that adapt seamlessly across different devices. My proficiency lies in developing interactive interfaces by employing efficient coding practices and leveraging the latest tools and methodologies. Additionally, I thrive in collaborative environments, actively working with diverse teams to deliver exceptional web applications. Presently, I am in my forth year of studying Software Engineering at AASTU, actively pursuing my degree.
 
             
           
