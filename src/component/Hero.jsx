@@ -68,14 +68,14 @@ const Hero = () => {
         </div>
         <div className="flex gap-2">
 
-          <h3 className='text-lg lg:text-3xl  font-ibm text-primary-100/90'>Tech Stack:</h3>
+          <h3 className='lg:text-3xl  font-ibm text-primary-100/90'>Tech Stack:</h3>
           <div className="grid grid-cols-6 gap-2 md:gap-5">
-            <img src={Html} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
-            <img src={Css} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
-            <img src={Tailwind} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
-            <img src={Js} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
-            <img src={RctJs} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
-            <img src={Figma} alt="" className="w-6 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Html} alt="" className="w-8 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Css} alt="" className="w-8 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Tailwind} alt="" className="w-8 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Js} alt="" className="w-8 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={RctJs} alt="" className="w-8 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
+            <img src={Figma} alt="" className="w-8 md:w-12 hover:scale-105  hover:shadow-2xl cursor-pointer transition-all duration-300" />
           </div>
         </div>
         </div>
