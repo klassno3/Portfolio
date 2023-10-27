@@ -40,7 +40,7 @@ const Work = () => {
                     of the books they have read and want to read </p>
                 </div> 
                 <div className="flex flex-col  sm:flex-row gap-6">
-          <a href='https://literti-book-tracker.netlify.app/' className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl flex justify-center items-center text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Literti-100 tracking-wide font-inter capitalize '>View site</a>
+          <a href='https://literti-book-tracker.netlify.app/'  target="_blank" rel="noopener noreferrer" className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl flex justify-center items-center text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Literti-100 tracking-wide font-inter capitalize '>View site</a>
 <Link to="/case study" className='transition-all duration-300 md:text-xl border-red border-2   text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3  text-secondary-100 tracking-wide font-inter capitalize '>Case Study</Link>
                 </div>
           </div>
@@ -67,7 +67,7 @@ const Work = () => {
             <h1 className='font-inter font-semibold text-3xl lg:text-4xl'>Outlet Store</h1>
             <p className='md:text-xl font-inter  text-lg lg:text-2xl  '>Creating an e-commerce website that is easy to use and navigate is essential for a Store that wants to sell products online.</p>
               </div> 
-          <a href='https://outlet-store-e-commerce.netlify.app/' className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl  text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Outlet-1 tracking-wide font-inter capitalize '>View site</a>
+          <a href='https://outlet-store-e-commerce.netlify.app/'  target="_blank" rel="noopener noreferrer" className=' hover:bg-secondary-100/90 transition-all duration-300 md:text-xl  text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-secondary-100/70 text-Outlet-1 tracking-wide font-inter capitalize '>View site</a>
           </div>
             </div>
             
@@ -92,7 +92,7 @@ const Work = () => {
             <h1 className='font-inter font-semibold text-3xl lg:text-4xl'>Ayat  Realstate Redesign</h1>
             <p className='md:text-xl font-inter  text-lg lg:text-2xl  '>Redesign Ayat Real Estate's website to make it more  visually appealing and easy to use.</p>
               </div> 
-          <a href='https://ayat-realstate.netlify.app/' className=' hover:bg-Ayat-1.2/90 transition-all duration-300 md:text-xl text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-Ayat-1.2/70 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
+          <a href='https://ayat-realstate.netlify.app/'  target="_blank" rel="noopener noreferrer" className=' hover:bg-Ayat-1.2/90 transition-all duration-300 md:text-xl text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-Ayat-1.2/70 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
           </div>
             </div>
             
@@ -117,7 +117,7 @@ const Work = () => {
             <h1 className='font-inter font-semibold text-3xl lg:text-4xl'>Omni Food</h1>
             <p className='md:text-xl font-inter  text-lg lg:text-2xl  '>A seamless service that provides healthy, pre-made meals that are tailored to your individual dietary needs and preferences.</p>
               </div> 
-          <a href='https://omnifood-beti.netlify.app/' className=' hover:bg-Ayat-1.2/90 transition-all duration-300 md:text-xl text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-Ayat-1.2/70 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
+          <a href='https://omnifood-beti.netlify.app/'  target="_blank" rel="noopener noreferrer" className=' hover:bg-Ayat-1.2/90 transition-all duration-300 md:text-xl text-base px-6 py-2 lg:px-8 md:px-6 rounded-[5px] md:rounded-[8px] md:py-2 lg:py-3 bg-Ayat-1.2/70 text-secondary-100 tracking-wide font-inter capitalize '>View site</a>
           </div>
             </div>
             
