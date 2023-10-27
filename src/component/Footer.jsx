@@ -20,11 +20,11 @@ const Footer = () => {
        
         
         <div className="flex gap-4 text-primary-100">
-          <a href='https://github.com/klassno3/'>
+          <a target="_blank" rel="noopener noreferrer" href='https://github.com/klassno3/'>
           
           <FaGithubSquare className='cursor-pointer hover:text-pink-100 transition-all duration-300' size={ 35 } />
           </a>
-          <a href='https://www.linkedin.com/in/betelhem-kirub-7830a926b/'>
+          <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/betelhem-kirub-7830a926b/'>
           
           <FaLinkedin className='cursor-pointer hover:text-pink-100 transition-all duration-300' size={35 } />
           </a>
