@@ -27,8 +27,8 @@ const CaseStudy = () => {
   return (
     <div className='pt-16 pb-10 bg-secondary-100'>
       <Link to="/">
-      <div className='fixed top-12 left-12 lg:w-10/12 w-11/12 mx-auto  text-primary-100 hover:text-pink-100 transition-all duration-300 '>
-        <GoArrowLeft size={40}/>
+      <div className='bg-white shadow-xl w-10 h-10 rounded-full flex justify-center items-center fixed top-6 left-6 md:top-12 md:left-12  mx-auto  text-primary-100 hover:text-pink-100 transition-all duration-300 '>
+        <GoArrowLeft size={30}/>
       </div>
       </Link>
       <img className='w-9/12 lg:w-8/12 mt-20 flex justify-center mx-auto' src={ Literti } alt="" />
