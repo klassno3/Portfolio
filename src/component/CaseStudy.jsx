@@ -38,7 +38,7 @@ const CaseStudy = () => {
         
         <h1 className="text-Literti-100 text-2xl lg:text-6xl  font-ibm">Literti</h1>
         
-        <p className="text-sm md:text-xl text-tertiary-200 font-inter lg:w-3/4">Design a website that enables users to monitor their book reading progress and establish personal reading challenges.</p>
+        <p className="text-sm md:text-xl text-primary-100/80 font-inter lg:w-3/4">Design a website that enables users to monitor their book reading progress and establish personal reading challenges.</p>
         
       </div>
       
