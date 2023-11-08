@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row justify-between md:items-center  pb-5 md:pb-20">
 
           <div className="w-full md:w-[70%]  ">
-            <div className="flex flex-col  md:gap-10">
+            <div className="flex flex-col">
               
               <div>
                 
