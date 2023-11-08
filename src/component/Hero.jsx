@@ -35,7 +35,7 @@ const Hero = () => {
                 <Typewriter
                   onInit={ ( typewriter ) => {
                     typewriter
-                    .typeString( "Aesthetically pleasing. " )
+                      .typeString( "Aesthetically pleasing. " )
                     .pauseFor( 1 )
                     .deleteAll()
                     .typeString( "User friendly." )

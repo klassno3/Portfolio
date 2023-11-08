@@ -29,8 +29,8 @@ const Work = () => {
               </div>
           <div className="flex  md:w-1/2 flex-col gap-3 font-inter">
              <div className="flex items-center justify-between ">
-        <h3 className="sm:text-xl text-base md:text-2xl  text-pink-100 font-bold">Literti</h3>
-<Link to="/case study" className='underline  uppercase transition-all duration-300   text-sm md:text-base font-semibold text-pink-100 '>
+        <h3 className="sm:text-xl text-base md:text-2xl  text-Literti-100 font-bold">Literti</h3>
+<Link to="/case study" className='underline  uppercase transition-all duration-300   text-sm md:text-base font-semibold text-Literti-100'>
             Case Study
                 </Link>
             </div>
@@ -52,7 +52,7 @@ const Work = () => {
                   href='https://github.com/klassno3/LITERTI'
                   target="_blank"
                   rel="noopener noreferrer"
-                 className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base gap-2  p-2 md:p-3  justify-center items-center  rounded text-pink-100 border-2 t border-pink-100  shadow-md'>
+                 className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base gap-2  p-2 md:p-3  justify-center items-center  rounded text-Literti-100 border-2 t border-Literti-100 shadow-md'>
             <span>Code</span>
             <FiGithub />
 
@@ -62,7 +62,7 @@ const Work = () => {
                   href='https://literti-book-tracker.netlify.app/'
                   target="_blank"
                   rel="noopener noreferrer"
-                  className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base gap-2  p-2 md:p-3 justify-center items-center  rounded text-white bg-pink-100  shadow-md'
+                  className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base gap-2  p-2 md:p-3 justify-center items-center  rounded text-white bg-Literti-100 shadow-md'
                 >
                   
           
