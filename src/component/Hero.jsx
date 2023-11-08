@@ -51,7 +51,7 @@ const Hero = () => {
                   
                   
                   Tech Stack</h3>
-                <div className="grid md:grid-cols-4 mt-3 md:mt-0 sm:grid-cols-2 gap-5">
+                <div className="grid md:grid-cols-4 mt-3 md:mt-0 grid-cols-2 gap-5">
                   <div className="flex  gap-2 translate-0 transition-all duration-500 hover:-translate-y-2">
 
             <img src={Html} alt="" className="w-12  cursor-pointer transition-all duration-300" />
