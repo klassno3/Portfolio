@@ -23,7 +23,7 @@ const Work = () => {
                 <div className="md:w-full rounded-xl shadow-lg h-[300px] overflow-hidden">
 
             <img
-              className='md:w-full group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
+              className='md:w-full md:group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
               src={ Literti } alt="" />
           </div>
               </div>
@@ -82,7 +82,7 @@ const Work = () => {
                 <div className="md:w-full rounded-xl shadow-lg h-[300px] overflow-hidden">
 
             <img
-              className='md:w-full group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
+              className='md:w-full md:group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
               src={ CarRental } alt="" />
           </div>
               </div>
@@ -134,7 +134,7 @@ A car rental website is an online platform that allows users to rent cars for pe
                 <div className="md:w-full rounded-xl shadow-lg h-[300px] overflow-hidden">
 
             <img
-              className='md:w-full group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
+              className='md:w-full md:group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
               src={ BluLabs } alt="" />
           </div>
               </div>
@@ -188,7 +188,7 @@ A car rental website is an online platform that allows users to rent cars for pe
             
           <div className="md:w-full rounded-xl shadow-lg h-[300px] overflow-hidden">
 
-            <img className='md:w-full group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
+            <img className='md:w-full md:group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
               src={ Ayat } alt="" />
           </div>
               </div>
@@ -246,7 +246,7 @@ A car rental website is an online platform that allows users to rent cars for pe
           <div className="md:w-full rounded-xl shadow-lg h-[300px] overflow-hidden">
 
             <img
-              className='md:w-full group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
+              className='md:w-full md:group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
               src={ Outlet } alt="" />
           </div>
               </div>   
