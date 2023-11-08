@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Literti from "../Image/Literti.png"
 import { AiOutlineHeart, AiOutlineSearch } from "react-icons/ai"
 import { GoLightBulb } from "react-icons/go"
-
+import { GoArrowLeft } from "react-icons/go"
+import {Link,useLocation} from "react-router-dom"
 import Table from "../Image/Table.png"
 import SiteMap from "../Image/Sitemap.svg"
 import TaskFlow from "../Image/Task Flow.svg"
@@ -17,12 +18,20 @@ import FinalChallenge from "../Image/Final Challenge.png"
 import FinalMyBook from "../Image/Final My books.png"
 import FinalDesign from "../Image/design process.jpg"
 
-
 const CaseStudy = () => {
+  const location = useLocation()
+
+  useEffect( () => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <div className='pt-16 pb-10 bg-secondary-100'>
-
-      <img className='w-9/12 lg:w-8/12 flex justify-center mx-auto' src={ Literti } alt="" />
+      <Link to="/">
+      <div className='fixed top-12 left-12 lg:w-10/12 w-11/12 mx-auto  text-primary-100 hover:text-pink-100 transition-all duration-300 '>
+        <GoArrowLeft size={40}/>
+      </div>
+      </Link>
+      <img className='w-9/12 lg:w-8/12 mt-20 flex justify-center mx-auto' src={ Literti } alt="" />
       
     
       <div className="flex lg:w-10/12 w-11/12 mx-auto flex-col gap-2 md:gap-4 mt-16">

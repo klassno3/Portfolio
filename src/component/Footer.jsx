@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithubSquare, FaLinkedin, FaTelegram } from 'react-icons/fa'
+import { FaGithubSquare, FaLinkedin, FaMailBulk, FaPhone, FaTelegram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -11,11 +11,14 @@ const Footer = () => {
           <div>
             <h3 className="text-xl md:text-3xl lg:text-4xl capitalize font-ibm text-primary-100 ">Thanks for Stopping by!</h3>
           </div>
-            <p className="text-sm lg:text-xl font-inter text-primary-100 ">betelhemkirub@gmail.com</p>
-            <div className="text-primary-100 flex text-sm gap-1 font-inter items-center">
-              <FaTelegram size={ 20 } />
+            <a href="tel:0966340697" className="flex text-primary-100 font inter w-max items-center gap-2"><FaPhone /><span>+251966340697</span></a>
+            <a href="mailto:betelhemkirub@gmail.com" target="_blank" rel="noopener noreferrer" className="flex w-max text-primary-100 font-inter items-center gap-2"><FaMailBulk/><span>betelhemkirub@gmail.com</span></a>
+            <div className="text-primary-100 flex text-sm gap-1 font-inter items-center cursor-pointer">
+              <FaTelegram />
               <p>@Betlhem33</p>
             </div>
+                        
+
           </div>
        
         
@@ -31,7 +34,8 @@ const Footer = () => {
          
         </div>
         </div>
-                  <p className="text-xs md:text-sm pt-7 md:pt-20 font-light font-inter text-primary-100"> © 2023 Betelhem Kirub. all rights reserved </p>
+                  
+        <p className="text-xs md:text-sm pt-7 md:pt-20 font-light font-inter text-primary-100"> © 2023 Betelhem Kirub. all rights reserved </p>
 
     </div>
     </div>
