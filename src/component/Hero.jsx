@@ -8,7 +8,7 @@ import RctJs from "../Image/RctJs.svg"
 import Tailwind from '../Image/tailwind.svg'
 import Figma from '../Image/figma.svg' 
 import Sass from '../Image/sass.svg' 
-import HeroPic from "../Image/Me.jpg"
+// import HeroPic from "../Image/Me.jpg"
 // import HeroPic from "../Image/HeroPic.jpg"
 
 
