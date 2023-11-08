@@ -36,7 +36,7 @@ module.exports = {
         "pink-200": " #F72D93",
         "Outlet-1":"#0f5891",
         "Outlet-1.1":"#126fb6",
-        "BluLabs-1":"#4Ab2c2",
+        "BluLabs-1":"#4A82C2",
         "Omnifood-1":"#E95620",
         "Omnifood-1.1":"#fa9b47",
         "Omnifood-1.2": "#222222",
