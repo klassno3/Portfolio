@@ -65,7 +65,7 @@ const Navigation = () => {
             <img onClick={ handleClose } src={ Close } alt="" className={ `${ open ? "block" : "hidden" } fixed top-[40px] right-[40px] sm:w-7 w-6 ` } />
             
            <div className="flex sharp flex-col gap-10 font-inter text-xl text-tertiary-200/70 tracking-wide">
-                          <Link to="hero" activeClass="current" offset={-150}  smooth={ true } className="cursor-pointer hover:text-pink-100/70">Home</Link>
+                          <Link onClick={()=>setOpen(false)} to="hero" activeClass="current" offset={-150}  smooth={ true } className="cursor-pointer hover:text-pink-100/70">Home</Link>
                 <Link to="about" activeClass="current" offset={-150} smooth={ true } onClick={ () => setOpen( false ) } className="cursor-pointer hover:text-pink-100/70">About</Link>
                 <Link to="work" activeClass="current"offset={-150} smooth={ true } onClick={()=>setOpen(false)} className="  cursor-pointer  hover:text-pink-100/70" >Work</Link>
           <a onClick={()=>setOpen(false)}  href={Resume} download="Resume" className="cursor-pointer hover:text-pink-100/70" > Resume </a>

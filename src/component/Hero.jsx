@@ -32,16 +32,14 @@ const Hero = () => {
           <h1>I'm a front-end developer and UI/UX designer with a passion for creating experiences that are </h1>
           <div className="text-pink-100">
             
-                <Typewriter
-                  onInit={ ( typewriter ) => {
-                    typewriter
-                      .typeString( "Aesthetically pleasing. " )
-                    .pauseFor( 1 )
-                    .deleteAll()
-                    .typeString( "User friendly." )
-                    .start();
-                  }}
-                  />
+           
+                    <Typewriter
+  options={{
+    strings: ['Aesthetically pleasing.', 'User friendly.'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
                       </div>
                   </div>
                   </div>
