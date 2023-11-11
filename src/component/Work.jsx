@@ -29,7 +29,7 @@ const Work = () => {
               </div>
           <div className="flex  md:w-1/2 flex-col gap-3 font-inter">
              <div className="flex items-center justify-between ">
-        <h3 className="sm:text-xl text-base md:text-2xl  text-Literti-100 font-bold">Literti</h3>
+        <h3 className="sm:text-xl text-base md:text-2xl  text-Literti-100 font-bold font-ibm">Literti</h3>
 <Link to="/case study" className='underline  uppercase transition-all duration-300   text-sm md:text-base font-semibold text-Literti-100'>
             Case Study
                 </Link>
@@ -88,7 +88,7 @@ const Work = () => {
               </div>
           <div className="flex md:w-1/2 flex-col gap-3 font-inter">
            
-        <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-Omnifood-1">Car Rental</h3>
+        <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-Omnifood-1 font-ibm">Car Rental</h3>
           <div className="flex flex-col gap-5 ">
               <p className="text-tertiary-300 text-sm sm:text-lg">
 A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.        </p>
@@ -140,7 +140,7 @@ A car rental website is an online platform that allows users to rent cars for pe
               </div>
           <div className="flex md:w-1/2 flex-col gap-3 font-inter">
            
-        <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-BluLabs-1">Blu Labs</h3>
+        <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-BluLabs-1 font-ibm">Blu Labs</h3>
           <div className="flex flex-col gap-5 ">
               <p className="text-tertiary-300 text-sm sm:text-lg">
                Blu Labs official website, a software company committed to meeting the most stringent standards for performance, security, and functionality. We achieve this by conducting thorough testing and implementing rigorous quality assurance procedures.  
@@ -194,7 +194,7 @@ A car rental website is an online platform that allows users to rent cars for pe
               </div>
       
       <div className="flex  md:w-1/2 flex-col gap-3 font-inter">
-        <h3 className="sm:text-xl text-base md:text-2xl text-Ayat-1 font-bold">Ayat Realstate</h3>
+        <h3 className="sm:text-xl text-base md:text-2xl text-Ayat-1 font-bold font-ibm">Ayat Realstate</h3>
           <div className="flex flex-col gap-5 ">
               <p className="text-sm sm:text-lg text-tertiary-300">
                Redesign Ayat Real Estate's website to make it more visually appealing and easy to use.
@@ -252,7 +252,7 @@ A car rental website is an online platform that allows users to rent cars for pe
               </div>   
       
       <div className="flex md:w-1/2 flex-col gap-3 font-inter">
-        <h3 className="sm:text-xl text-base md:text-2xl text-Outlet-1 font-bold">Outlet Store</h3>
+        <h3 className="sm:text-xl text-base md:text-2xl text-Outlet-1 font-bold font-ibm">Outlet Store</h3>
           <div className="flex flex-col gap-5 ">
               <p className="text-sm sm:text-lg text-tertiary-300">
                Creating an e-commerce website that is easy to use and navigate is essential for a Store that wants to sell products online.

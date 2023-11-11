@@ -26,7 +26,7 @@ const About = () => {
 based in Addis Ababa
             </p>
             <p className="text-tertiary-300 sm:text-base text-sm">
-              As a Junior Front-End Developer, I have cultivated a formidable skill set encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS.
+              As a  Front-End Developer, I have cultivated a formidable skill set encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS.
               My forte lies in designing and upkeeping responsive websites that deliver a seamless user experience.
               I am adept at crafting dynamic and captivating interfaces by employing clean, optimized code and leveraging state-of-the-art development tools and methodologies.
               Additionally, I am a collaborative team player who thrives in working alongside cross-functional teams to create exceptional web applications.
