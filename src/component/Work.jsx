@@ -17,6 +17,60 @@ const Work = () => {
        <img className="w-7 md:w-10" src={ Desk } alt="desktop icon" />
                </div>
       <div className="flex flex-col gap-8 md:gap-12">
+        <div className='bg-white group p-6 md:p-8 flex flex-col md:flex-row gap-10 rounded-lg shadow-md'>
+     <div className="md:w-1/2">
+            
+                <div className="md:w-full rounded-xl shadow-lg h-[300px] overflow-hidden">
+
+            <img
+              className='md:w-full md:group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
+              src={ BluLabs } alt="" />
+          </div>
+              </div>
+          <div className="flex md:w-1/2 flex-col gap-3 font-inter">
+           
+        <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-BluLabs-1 font-ibm">Blu Labs</h3>
+          <div className="flex flex-col gap-5 ">
+              <p className="text-tertiary-300 text-sm sm:text-lg">
+               Blu Labs official website, a software company committed to meeting the most stringent standards for performance, security, and functionality. We achieve this by conducting thorough testing and implementing rigorous quality assurance procedures.  
+        </p>
+         
+          <div className="text-tertiary-200 text-sm md:text-lg flex gap-3">
+            
+          <div className="underline">React</div>
+        <div className="underline">Tailwind Css</div>
+          </div>
+          <div className="flex flex-col md:flex-row gap-4  md:gap-6">
+                <a
+                  
+                  href='https://github.com/klassno3/blu-labs'
+                  target="_blank"
+                  rel="noopener noreferrer"
+                   className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base justify-center items-center gap-2 rounded text-BluLabs-1 border-2 t border-BluLabs-1 p-2 md:p-3 shadow-md'
+                  >
+
+            <span>Code</span>
+            <FiGithub />
+                </a>
+        
+                <a
+               href='http://blulabs.net'
+                  target="_blank"
+                  rel="noopener noreferrer"
+                className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base justify-center items-center gap-2 rounded text-white bg-BluLabs-1 p-2 md:p-3  shadow-md' 
+                >
+                
+            <span>Live Demo</span>
+            <RxOpenInNewWindow />
+                </a>
+          </div>
+          
+       
+        </div>
+            </div>
+      
+    </div>
+      
           <div className='bg-white  group p-8 flex flex-col md:flex-row gap-10 rounded-2xl shadow-md'>
           <div className="md:w-1/2">
             
@@ -128,60 +182,7 @@ A car rental website is an online platform that allows users to rent cars for pe
             </div>
       
     </div>
-  <div className='bg-white group p-6 md:p-8 flex flex-col md:flex-row gap-10 rounded-lg shadow-md'>
-     <div className="md:w-1/2">
-            
-                <div className="md:w-full rounded-xl shadow-lg h-[300px] overflow-hidden">
-
-            <img
-              className='md:w-full md:group-hover:-translate-y-[60%]  transition-all duration-[3000ms]'
-              src={ BluLabs } alt="" />
-          </div>
-              </div>
-          <div className="flex md:w-1/2 flex-col gap-3 font-inter">
-           
-        <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-BluLabs-1 font-ibm">Blu Labs</h3>
-          <div className="flex flex-col gap-5 ">
-              <p className="text-tertiary-300 text-sm sm:text-lg">
-               Blu Labs official website, a software company committed to meeting the most stringent standards for performance, security, and functionality. We achieve this by conducting thorough testing and implementing rigorous quality assurance procedures.  
-        </p>
-         
-          <div className="text-tertiary-200 text-sm md:text-lg flex gap-3">
-            
-          <div className="underline">React</div>
-        <div className="underline">Tailwind Css</div>
-          </div>
-          <div className="flex flex-col md:flex-row gap-4  md:gap-6">
-                <a
-                  
-                  href='https://github.com/klassno3/blu-labs'
-                  target="_blank"
-                  rel="noopener noreferrer"
-                   className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base justify-center items-center gap-2 rounded text-BluLabs-1 border-2 t border-BluLabs-1 p-2 md:p-3 shadow-md'
-                  >
-
-            <span>Code</span>
-            <FiGithub />
-                </a>
-        
-                <a
-                  href='https://blu-labs-company.netlify.app/'
-                  target="_blank"
-                  rel="noopener noreferrer"
-                className='hover:shadow-xl transition-all duration-300 flex text-sm md:text-base justify-center items-center gap-2 rounded text-white bg-BluLabs-1 p-2 md:p-3  shadow-md' 
-                >
-                
-            <span>Live Demo</span>
-            <RxOpenInNewWindow />
-                </a>
-          </div>
-          
-       
-        </div>
-            </div>
-      
-    </div>
-      
+  
   
     <div className='bg-white  group p-6 md:p-8 flex flex-col md:flex-row gap-10 rounded-lg shadow-md'>
           <div className="md:w-1/2">
