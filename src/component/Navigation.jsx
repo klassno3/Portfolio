@@ -3,7 +3,7 @@ import Logo from "../Image/Logo.svg"
 import Menu from "../Image/menu-alt.svg"
 import Close from "../Image/close.svg"
 import { Link } from "react-scroll"
-import Resume from "../Resume/Betelhem Kirub cv.pdf"
+import Resume from "../Resume/Betelhem Kirub cv .pdf"
 
 const Navigation = () => {
 
