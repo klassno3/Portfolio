@@ -31,7 +31,7 @@ const Work = () => {
            
         <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-BluLabs-1 font-ibm">Blu Labs</h3>
           <div className="flex flex-col gap-5 ">
-              <p className="text-tertiary-300 text-sm sm:text-lg">
+              <p className="text-tertiary-200/80  text-sm sm:text-lg">
                Blu Labs official website, a software company committed to meeting the most stringent standards for performance, security, and functionality. We achieve this by conducting thorough testing and implementing rigorous quality assurance procedures.  
         </p>
          
@@ -89,7 +89,7 @@ const Work = () => {
                 </Link>
             </div>
           <div className="flex flex-col gap-5 ">
-              <p className="text-sm sm:text-lg text-tertiary-300">
+              <p className="text-sm sm:text-lg text-tertiary-200/80 ">
                 An easy book tracking app is a website or application that provides users with
                 a convenient way to keep track of the books they have read and the ones they want to read.
               </p>
@@ -144,7 +144,7 @@ const Work = () => {
            
         <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-Omnifood-1 font-ibm">Car Rental</h3>
           <div className="flex flex-col gap-5 ">
-              <p className="text-tertiary-300 text-sm sm:text-lg">
+              <p className="text-tertiary-200/80  text-sm sm:text-lg">
 A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.        </p>
          
           <div className="text-tertiary-200 text-sm md:text-lg flex gap-3">
@@ -197,7 +197,7 @@ A car rental website is an online platform that allows users to rent cars for pe
       <div className="flex  md:w-1/2 flex-col gap-3 font-inter">
         <h3 className="sm:text-xl text-base md:text-2xl text-Ayat-1 font-bold font-ibm">Ayat Realstate</h3>
           <div className="flex flex-col gap-5 ">
-              <p className="text-sm sm:text-lg text-tertiary-300">
+              <p className="text-sm sm:text-lg text-tertiary-200/80 ">
                Redesign Ayat Real Estate's website to make it more visually appealing and easy to use.
               </p>
               
@@ -255,7 +255,7 @@ A car rental website is an online platform that allows users to rent cars for pe
       <div className="flex md:w-1/2 flex-col gap-3 font-inter">
         <h3 className="sm:text-xl text-base md:text-2xl text-Outlet-1 font-bold font-ibm">Outlet Store</h3>
           <div className="flex flex-col gap-5 ">
-              <p className="text-sm sm:text-lg text-tertiary-300">
+              <p className="text-sm sm:text-lg text-tertiary-200/80 ">
                Creating an e-commerce website that is easy to use and navigate is essential for a Store that wants to sell products online.
               </p>
               

@@ -16,20 +16,20 @@ const About = () => {
       </div>
         </div>
         <div className="lg:w-3/5">
-          <div className="flex flex-col text-center lg:text-left  gap-2 md:gap-3">
+          <div className="flex flex-col text-center lg:text-left  gap-2 md:gap-2">
 
           <h2 className=" text-pink-100 sm:text-xl font-bold">
             ABOUT ME
           </h2>
-          <p className="sm:text-xl md:text-2xl font-semibold">
-       A dedicated Front-end Developer
-based in Addis Ababa
+          <p className="sm:text-xl text-primary-100 md:text-2xl font-semibold">
+        Dedicated Front-end Developer
+
             </p>
-            <p className="text-tertiary-300 sm:text-base text-sm">
-              As a  Front-End Developer, I have cultivated a formidable skill set encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS.
-              My forte lies in designing and upkeeping responsive websites that deliver a seamless user experience.
-              I am adept at crafting dynamic and captivating interfaces by employing clean, optimized code and leveraging state-of-the-art development tools and methodologies.
-              Additionally, I am a collaborative team player who thrives in working alongside cross-functional teams to create exceptional web applications.
+            <p className="text-primary-100/70 font-inter sm:text-base text-sm">
+            I have a deep passion for creating captivating designs that not only catch your eye but also bring them to life. My main goal is to bridge the gap between functional masterpieces and visually pleasing interfaces that make a lasting impression.
+
+I have a strong foundation in web development, using HTML, CSS, JavaScript, TypeScript, React, Tailwind, and SCSS. These tools allow me to transform ideas into stunning realities. I am also well-versed in design tools like Figma, which helps me bring concepts to life with pixel-perfect designs.
+
               </p>
           </div>
           
