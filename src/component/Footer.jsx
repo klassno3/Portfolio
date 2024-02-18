@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         </div>
                   
-        <p className="text-xs md:text-sm pt-7 md:pt-20 font-light font-inter text-primary-100"> © 2023 Betelhem Kirub. all rights reserved </p>
+        <p className="text-xs md:text-sm pt-7 flex justify-center items-center md:pt-20 font-light font-inter text-primary-100"> © 2024 Betelhem Kirub. all rights reserved </p>
 
     </div>
     </div>
