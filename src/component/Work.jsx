@@ -32,7 +32,8 @@ const Work = () => {
         <h3 className="sm:text-xl text-base md:text-2xl font-bold  text-BluLabs-1 font-ibm">Blu Labs</h3>
           <div className="flex flex-col gap-5 ">
               <p className="text-tertiary-200/80  text-sm sm:text-lg">
-               Blu Labs official website, a software company committed to meeting the most stringent standards for performance, security, and functionality. We achieve this by conducting thorough testing and implementing rigorous quality assurance procedures.  
+               Blu Labs official website, a software company committed to meeting the most stringent standards for performance, security, and functionality. 
+                 
         </p>
          
           <div className="text-tertiary-200 text-sm md:text-lg flex gap-3">
@@ -256,7 +257,7 @@ A car rental website is an online platform that allows users to rent cars for pe
         <h3 className="sm:text-xl text-base md:text-2xl text-Outlet-1 font-bold font-ibm">Outlet Store</h3>
           <div className="flex flex-col gap-5 ">
               <p className="text-sm sm:text-lg text-tertiary-200/80 ">
-               Creating an e-commerce website that is easy to use and navigate is essential for a Store that wants to sell products online.
+               An e-commerce website that is easy to use and navigate for a Store that wants to sell products online.
               </p>
               
          
